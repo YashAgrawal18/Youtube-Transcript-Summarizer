@@ -1,14 +1,10 @@
-# YouTube Transcript Summarizer: Flask Back-End Repository
-### <i><b>Caution:</b> There is no open source license attached to this repository, which means that you can not copy/make changes without the author's permission. This repository is only for any future improvements or suggestions if someone wants to add to this project.
-### So, if you are planning to use this repository for your own final year minor/major projects, then, unfortunately, you can not use this repository to submit because it was already submitted by me in the first place. This repository is only made available by me for any improvements you want to add or suggest. If I get to know that someone is using this repository as their project, then, unfortunately I would have to report this "unauthorised copying/project already built scenario" to your university/college.
-### So, kindly do not fork this repository if you want to use it as your project. This repository is the author's own intellectual property, and it is only made available for the purpose of knowledge-sharing; and not unauthorised ownership.</i>
-##
-### This back-end also hosts the web version of the online summarizer [here](https://ytsum.herokuapp.com/web/).
+# YouTube Transcript Summarizer
+
+
 **YouTube Video Transcript Summarization over Flask:** This back-end uses Flask framework to receive API calls from the client and then respond with the summarized text response. This API can work only on those YouTube videos which have well-formatted closed captions in it. The same backend also hosts a web version of the Summarizer to make those API calls in simple way and show the output within the webpage.
 
 ![](/readme_images/image_cover_f.png)
 
-*Pre-requisite Knowledge:* YouTube is an American free to use online video sharing and social media platform launched in February 2005. It is currently one of the biggest video platforms where its users watch more than 1 billion hours of videos every day.\
 Closed captions are the text derived from the video which are intended for adding more details (such as dialogues, speech translation, non-speech elements) for the viewer. They are widely used to understand video without understanding its audio.
 
 *Use case Scenario:* YouTube has very large number of videos which has transcripts. Summarization would be especially helpful in the cases where videos are longer in length and different parts might have varying importance. In this sense, Summarization of the video might be useful in saving the viewer’s time. It will help in improving user productivity since they will focus only on the important text spoken in video. 
@@ -83,7 +79,3 @@ The image below shows the front-end of the web version of the summarizer.
 
 As before mentioned, this back-end repository also hosts the web summmarizer. This basic HTML+CSS+JS webpage takes input which is required for making API requests. The webpage is self explanatory. Once you click on summarize button, the JS script makes an API request to the back-end. Once the request is completed, the received response is displayed to the user in the formatted mannner.
 
-#### Feel free to improve this back-end, add comments and ask any queries if you have any.
-
-##### The back-end uses an undocumented part of the YouTube API, which is called by the YouTube web-client. So there is no guarantee that it would stop working tomorrow, if they change how things work. In case that happens, I will do my best to make things work again as soon as possible if that happens. So if it stops working, let me know!
-##### This is not an official tool from YouTube. I have built this package for my final year project. 
