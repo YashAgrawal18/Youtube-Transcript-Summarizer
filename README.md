@@ -73,9 +73,8 @@ More details about using our API is written below:
   ```
 
 ### More information about the front-end
-The image below shows the front-end of the web version of the summarizer.
 
-![](/readme_images/sample_browser_ui.jpg)
+
 
 As before mentioned, this back-end repository also hosts the web summmarizer. This basic HTML+CSS+JS webpage takes input which is required for making API requests. The webpage is self explanatory. Once you click on summarize button, the JS script makes an API request to the back-end. Once the request is completed, the received response is displayed to the user in the formatted mannner.
 
